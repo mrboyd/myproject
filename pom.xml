@@ -12,12 +12,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-    <finalName>my-webapp</finalName>
-  </build>
-<plugin>
+  <plugin>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-war-plugin</artifactId>
   <version>2.2.1</version>
 </plugin>
+  <build>
+    <finalName>my-webapp</finalName>
+  </build>
 </project>
